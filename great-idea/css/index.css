@@ -76,20 +76,21 @@ body{
 }
 header{
 	display:flex; 
-	justify-content:space-evenly;
+	justify-content:space-around; 
 
 }
 /*navigation bar with logo*/
 
 header nav{
  display:flex;
- justify-content:space-evenly;
+ justify-content:space-evenly; 
  padding-top:35px; 
+
 }
 
 /*navigation bar*/
 header nav a{
-margin:0 5%; 
+margin:0 10%; 
 color:gray; 
 text-decoration: none;
 
@@ -97,7 +98,8 @@ text-decoration: none;
 /*Great idea logo*/
 .logo{
 	border:1px solid red;
-	margin-top: 20px;
+	border-top: 60px;
+	padding-top: 25px;
 }
 /* innovation on demand text and image*/
 .cta{
@@ -115,10 +117,15 @@ text-decoration: none;
 .top-content .text-content{
 	/*border-top: 2px solid black;
 	padding-top: 5%;*/
-	display:flex;
 	width: 95%;
 	margin-top: 50px;
 	margin-bottom: 50px; 
+	display:flex;
+}
+
+.top-content .text-content div{
+	display:
+
 }
 /* coding img in middle section*/
 .middle-img{
@@ -134,16 +141,17 @@ text-decoration: none;
 	margin: 50px 0;
 	display:flex; 
 }
-.bottom-content div{
-	display:flex;
-	border:1px solid black;
-}
+
+
+
 /* innovation on demand, get started, and coding circle img*/
 .cta-text {
 	width: 100%;
 	display:flex;
-	justify-content: space-around;
+	justify-content: center;
 	padding: 60px 0; 
+	align-items:center;
+	
 
 }
 /*get started box*/
