@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -77,15 +78,17 @@ body{
 header{
 	display:flex; 
 	justify-content:space-around; 
+	width:100%;
+	align-items:flex-start;
 
 }
 /*navigation bar with logo*/
 
 header nav{
  display:flex;
- justify-content:space-evenly; 
+ justify-content:space-around; 
  padding-top:35px; 
-
+width:45%; 
 }
 
 /*navigation bar*/
@@ -180,12 +183,14 @@ footer{
 
 /*services.html css starts here*/
 
-body{
-	max-width:100%
-}
 
 .services-content{
-	padding: 50px 0;
+	padding: 30px 0;
+}
+
+.top-img img{
+	width:100%;
+	margin-top:20px;
 }
 
 .services-main-content{
@@ -200,16 +205,49 @@ body{
 	display:flex;
 	flex-wrap:wrap; 
 	border: 1px solid red;  
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 .box-content{
 	border: 1px solid black;
-	margin:10px 0; 
-	margin-right: 10px;
-	width:35%;
+	margin:15px 0; 
+	width:45%;
 	display:flex; 
 	flex-direction:column; 
 	padding:10px; 
 	background-color:lightgray;
+}
+
+.Learn-more{
+	border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.facts-content{
+	display: flex;
+    width: 100%;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+
+.facts-info{
+	width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+ul{
+	list-style-type: disc;
+    list-style-position: inside;
+}
+
+address{
+	text-align:center;
+	margin-top:10%; 
+	margin-bottom:2%
 }
