@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,189 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	max-width: 100%;
+}
+/*entire page*/
+.container {
+	margin: auto; 
+	width: 95%; 
+	
+}
+header{
+	display:flex; 
+	justify-content:space-around; 
+	width:100%;
+	align-items:flex-start;
+
+}
+/*navigation bar with logo*/
+
+header nav{
+ display:flex;
+ justify-content:space-around; 
+ padding-top:35px; 
+width:45%; 
+}
+
+/*navigation bar*/
+header nav a{
+margin:0 10%; 
+color:gray; 
+text-decoration: none;
+
+}
+/*Great idea logo*/
+.logo{
+	border:1px solid red;
+	border-top: 60px;
+	padding-top: 25px;
+}
+/* innovation on demand text and image*/
+.cta{
+	border: 1px solid red; 
+	width: 100%;
+}
+/* entire middle section of page*/
+.main-content{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 5% 0;
+}
+
+/* top content of the middle section*/
+.top-content .text-content{
+	/*border-top: 2px solid black;
+	padding-top: 5%;*/
+	width: 95%;
+	margin-top: 50px;
+	margin-bottom: 50px; 
+	display:flex;
+}
+
+
+
+/* coding img in middle section*/
+.middle-img{
+	width: 95%; 
+}
+	
+/*bottom content of the middle section*/
+.bottom-content .text-content{
+	/*border-bottom: 2px solid black;
+	padding-bottom: 5%; */
+	width: 95%;
+	line-height: 20px;
+	margin: 50px 0;
+	display:flex; 
+}
+
+
+
+/* innovation on demand, get started, and coding circle img*/
+.cta-text {
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	padding: 60px 0; 
+	align-items:center;
+	
+
+}
+/*get started box*/
+ .cta-text p{
+	border: 2px solid black;
+	padding: 10px 20px;
+	width:50%;
+}
+
+.cta-text h1{
+	border:1px solid black;
+	font-size:60px; 
+	text-align:center;
+}
+/* adds padding between the contact info and bottom content*/
+.contact-info{
+	padding: 5% 0;
+}
+/* adds padding between contact info */
+.contact-info p{
+	padding: 10px 0;
+}
+/* copy right info*/
+footer{
+	text-align: center;
+	padding-bottom: 200px; 
+}
+
+/*services.html css starts here*/
+
+
+.services-content{
+	padding: 30px 0;
+}
+
+.top-img img{
+	width:100%;
+	margin-top:20px;
+}
+
+.services-main-content{
+	width:100%; 
+	border-top: 1px solid black;
+	border-bottom: 1px solid black; 
+	padding: 3% 0; 
+}
+
+.services-text-content{
+	width: 100%;
+	display:flex;
+	flex-wrap:wrap; 
+	border: 1px solid red;  
+	justify-content: space-around;
+}
+
+.box-content{
+	border: 1px solid black;
+	margin:15px 0; 
+	width:45%;
+	display:flex; 
+	flex-direction:column; 
+	padding:10px; 
+	background-color:lightgray;
+}
+
+.Learn-more{
+	border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.facts-content{
+	display: flex;
+    width: 100%;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+
+.facts-info{
+	width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+ul{
+	list-style-type: disc;
+    list-style-position: inside;
+}
+
+address{
+	text-align:center;
+	margin-top:10%; 
+	margin-bottom:2%
+}
