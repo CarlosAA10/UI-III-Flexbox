@@ -193,14 +193,14 @@ footer{
 }
 
 .services-main-content{
-	width:100%; 
+	/* width:100%;  */
 	border-top: 1px solid black;
 	border-bottom: 1px solid black; 
 	padding: 3% 0; 
 }
 
 .services-text-content{
-	width: 100%;
+	/* width: 100%; */
 	display:flex;
 	flex-wrap:wrap;  
 	justify-content: space-around;
