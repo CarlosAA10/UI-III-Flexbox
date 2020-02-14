@@ -79,7 +79,7 @@ header{
 	display:flex; 
 	justify-content:space-around; 
 	width:100%;
-	align-items:flex-start;
+	align-items:baseline;
 
 }
 /*navigation bar with logo*/
@@ -100,13 +100,11 @@ text-decoration: none;
 }
 /*Great idea logo*/
 .logo{
-	border:1px solid red;
 	border-top: 60px;
 	padding-top: 25px;
 }
 /* innovation on demand text and image*/
 .cta{
-	border: 1px solid red; 
 	width: 100%;
 }
 /* entire middle section of page*/
@@ -118,8 +116,6 @@ text-decoration: none;
 
 /* top content of the middle section*/
 .top-content .text-content{
-	/*border-top: 2px solid black;
-	padding-top: 5%;*/
 	width: 95%;
 	margin-top: 50px;
 	margin-bottom: 50px; 
@@ -149,11 +145,15 @@ text-decoration: none;
 .cta-text {
 	width: 100%;
 	display:flex;
-	justify-content: center;
+	justify-content: space-around;
 	padding: 60px 0; 
 	align-items:center;
-	
+}
 
+.cta-text div{
+	display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 /*get started box*/
  .cta-text p{
@@ -163,7 +163,6 @@ text-decoration: none;
 }
 
 .cta-text h1{
-	border:1px solid black;
 	font-size:60px; 
 	text-align:center;
 }
@@ -194,17 +193,16 @@ footer{
 }
 
 .services-main-content{
-	width:100%; 
+	/* width:100%;  */
 	border-top: 1px solid black;
 	border-bottom: 1px solid black; 
 	padding: 3% 0; 
 }
 
 .services-text-content{
-	width: 100%;
+	/* width: 100%; */
 	display:flex;
-	flex-wrap:wrap; 
-	border: 1px solid red;  
+	flex-wrap:wrap;  
 	justify-content: space-around;
 }
 
